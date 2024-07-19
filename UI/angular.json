@@ -21,15 +21,42 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/vendor/bootstrap.min.css",
+              "src/assets/css/vendor/font-awesome.css",
+              "src/assets/css/vendor/slick.css",
+              "src/assets/css/vendor/slick-theme.css",
+              "src/assets/css/vendor/sal.css",
+              "src/assets/css/vendor/magnific-popup.css",
+              "src/assets/css/vendor/green-audio-player.min.css",
+              "src/assets/css/vendor/odometer-theme-default.css",
+              "src/assets/css/app.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vendor/jquery-3.6.0.min.js",
+              "src/assets/js/vendor/bootstrap.min.js",
+              "src/assets/js/vendor/isotope.pkgd.min.js",
+              "src/assets/js/vendor/imagesloaded.pkgd.min.js",
+              "src/assets/js/vendor/odometer.min.js",
+              "src/assets/js/vendor/jquery-appear.js",
+              "src/assets/js/vendor/slick.min.js",
+              "src/assets/js/vendor/sal.js",
+              "src/assets/js/vendor/jquery.magnific-popup.min.js",
+              "src/assets/js/vendor/js.cookie.js",
+              "src/assets/js/vendor/jquery.style.switcher.js",
+              "src/assets/js/vendor/jquery.countdown.min.js",
+              "src/assets/js/vendor/tilt.js",
+              "src/assets/js/vendor/green-audio-player.min.js",
+              "src/assets/js/vendor/jquery.nav.js",
+              "src/assets/js/app.js"
+            ]
           },
           "configurations": {
             "production": {
